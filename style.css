@@ -1,0 +1,195 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width: 100%;
+    background: url(i7.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 115vh;
+}
+.navbar{
+    width: 1200px;
+    height: 50px;
+    margin: auto;
+}
+.icon{
+    font-size: 15px;
+    font-family: Arial;
+    padding-left: 15px;
+    padding-top: 60px;
+    float: left;
+}
+.navbar img{
+    width: 10%;
+    float: left;
+    margin: 5px;
+}
+.logo1{
+    color: aliceblue;
+    font-weight: lighter;
+}
+.menu{
+    width: 400px;
+    float: right;
+    height: 70px;
+    padding-top: 45px;
+}
+.ul{
+    display: flex;
+    justify-content:center;
+    align-items:flex-start;
+}
+ul li{
+    list-style: none;
+    margin-left: 50px;
+    margin-top: 10px;
+    font-size: 30px;
+}
+.b1{
+    width: 100px;
+    height: 40px;
+    background: black;
+    border: 2px solid;
+    border-bottom-color: rgb(126, 219, 219);
+    border-top-color: linear-gradient(to right, #3ebac6 0%, #8b539e 50%, #e53782 100%);
+    margin-top: 15px;
+    color: black;
+    text-decoration: black;
+    font-size: 15px;
+    text-align: justify;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.b2{
+    width: 100px;
+    height: 40px;
+    background: white;
+    border: 2px solid white;
+    margin-top: 15px;
+    color: white;
+    font-size: 15px;
+    text-align: justify;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.b1:focus{
+    outline:linear-gradient(to right, #3ebac6 0%, #8b539e 50%, #e53782 100%);
+}
+.b2:focus{
+    outline: none;
+}
+.ul_li_a1{
+    text-decoration:white;
+    color: white;
+    display: flex;
+    float:none;
+    padding-left: 20px;
+    font-family: Arial;
+    font-weight: lighter;
+    transition: 0.4s ease-in-out;
+}
+.ul_li_a2{
+    text-decoration: black;
+    color: black;
+    display: flex;
+    float:none;
+    padding-left: 30px;
+    font-family: Arial;
+    font-weight: lighter;
+    transition: 0.4s ease-in-out;
+}
+ul li a:hover{
+    background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
+    background-clip: border-box;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+.content{
+    width: 1200px;
+    height: 120px;
+    margin: auto;
+    color: black;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+p a{
+    text-decoration:rgb(228, 138, 138);
+    color: white;
+    padding-left: 120px;
+    font-size: 100px;
+    font-family: Arial;
+    font-weight: bolder;
+    transition: 0.6s ease-in-out;
+}    
+.bg {
+    text-align: left;
+    width: 0%;
+    transition: all 0.6s ease-out;
+    background: #3ebac6 background; -moz-linear-gradient:(left, #3ebac6 0%, #8b539e 50%, #e53782 100%);
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%, #3ebac6), color-stop(50%, #8b539e), color-stop(100%, #e53782));
+    background: -webkit-linear-gradient(left, #3ebac6 0%, #8b539e 50%, #e53782 100%);
+    background: -o-linear-gradient(left, #3ebac6 0%, #8b539e 50%, #e53782 100%);
+    background: -ms-linear-gradient(left, #3ebac6 0%, #8b539e 50%, #e53782 100%);
+    background: linear-gradient(to right, #3ebac6 0%, #8b539e 50%, #e53782 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#3ebac6', endColorstr='#e53782', GradientType=1) ;
+}
+    
+.inner {
+    display: inline-block;
+    background-color: black;
+    mix-blend-mode: screen;
+    padding: 5px;
+    width: 500px;
+}
+p a:hover{
+    background-image: linear-gradient(to top, rgb(132, 237, 245),rgb(148, 245, 139),rgb(235, 155, 228),rgb(250, 248, 136));
+    background-clip: content-box;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+.i2{
+    width: 500px;
+    float: right;
+}
+.icons a{
+    text-decoration: none;
+    color: white;
+    width: 100px;
+    height: 50px;
+    float: right;
+}
+.icons ion-icon{
+    color: white;
+    display: flex;
+    float: right;
+    position: absolute;
+    bottom: 0px;
+    font-size: 40px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.l1{
+    right: 200px;
+}
+.l2{
+    right: 120px;
+}
+.l3{
+    right: 40px;
+}
+.icons ion-icon:hover{
+    color: lightblue;
+}
+.i3{
+    padding-left: 100px;
+    padding-top: 400px;
+    width: 150px;
+    float: left;
+    margin: 15px;
+}
