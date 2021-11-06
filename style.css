@@ -48,12 +48,14 @@ ul li{
     font-size: 30px;
 }
 .b1{
-    width: 100px;
+    width: 150px;
     height: 40px;
     background: black;
     border: 2px solid;
     border-bottom-color: rgb(126, 219, 219);
-    border-top-color: linear-gradient(to right, #3ebac6 0%, #8b539e 50%, #e53782 100%);
+    border-top-color: lemonchiffon;
+    border-left-color: lightpink;
+    border-right-color: lightpink;
     margin-top: 15px;
     color: black;
     text-decoration: black;
@@ -65,7 +67,7 @@ ul li{
     border-top-right-radius: 5px;
 }
 .b2{
-    width: 100px;
+    width: 150px;
     height: 40px;
     background: white;
     border: 2px solid white;
@@ -89,7 +91,7 @@ ul li{
     color: white;
     display: flex;
     float:none;
-    padding-left: 20px;
+    padding-left: 45px;
     font-family: Arial;
     font-weight: lighter;
     transition: 0.4s ease-in-out;
@@ -99,13 +101,13 @@ ul li{
     color: black;
     display: flex;
     float:none;
-    padding-left: 30px;
+    padding-left: 50px;
     font-family: Arial;
     font-weight: lighter;
     transition: 0.4s ease-in-out;
 }
 ul li a:hover{
-    background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
+    background-image: linear-gradient(to top, lightblue, rgb(132, 237, 245),rgb(148, 245, 139),lightpink, rgb(235, 155, 228),lemonchiffon, rgb(250, 248, 136));
     background-clip: border-box;
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
@@ -148,7 +150,7 @@ p a{
     width: 500px;
 }
 p a:hover{
-    background-image: linear-gradient(to top, rgb(132, 237, 245),rgb(148, 245, 139),rgb(235, 155, 228),rgb(250, 248, 136));
+    background-image: linear-gradient(to top, lightblue, rgb(132, 237, 245),rgb(148, 245, 139),lightpink, rgb(235, 155, 228),lemonchiffon, rgb(250, 248, 136));
     background-clip: content-box;
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
