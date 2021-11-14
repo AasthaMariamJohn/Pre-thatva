@@ -205,6 +205,7 @@ p a:hover{
     .i21{
         width: 5%;
         position:relative;
+        padding-top: 60vh;
         bottom: 0vw;
         right: 0vw;
     }
