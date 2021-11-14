@@ -22,7 +22,7 @@
     float: left;
 }
 .navbar img{
-    width: 80px;
+    width: 7%;
     float: left;
 }
 .logo1{
@@ -155,7 +155,7 @@ p a:hover{
     -webkit-background-clip: text;
 }
 .i2{
-    width: 500px;
+    width: 40%;
     float: right;
 }
 .icons a{
@@ -189,8 +189,8 @@ p a:hover{
 }
 .i3{
     padding-left: 40px;
-    padding-top: 365px;
-    width: 150px;
+    padding-top: 380px;
+    width: 8%;
     float: left;
     margin: 15px;
 }
