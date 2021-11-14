@@ -314,7 +314,7 @@ p a:hover{
         -webkit-background-clip: text;
     }
     .content{
-        width: 95vw;
+        width: 95vh;
         height: 10vh;
         margin: auto;
         color: black;
