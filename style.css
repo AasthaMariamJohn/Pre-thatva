@@ -201,7 +201,7 @@ p a:hover{
     float: left;
     margin: 1.5vw;
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 600px) {
     .main{
         width: 100%;
         background: url(i7.jpg);
@@ -216,6 +216,10 @@ p a:hover{
         padding-left: 1vw;
         padding-top: 5vh;
         float: left;
+    }
+    .navbar{
+        width: 100vw;
+        height: 5vh;
     }
     .navbar img{
         width: 11%;
@@ -238,7 +242,7 @@ p a:hover{
         float: left;
         position: absolute;
         height: 0vh;
-        padding-top: 65vh;
+        bottom: 35vh;
     }
     .ul{
         display: flex;
@@ -247,12 +251,12 @@ p a:hover{
     }
     ul li{
         list-style: none;
-        margin-left: 5vh;
+        margin-left: 6vw;
         margin-top: 1vh;
         font-size: 1vw;
     }
     .b1{
-        width: 18vw;
+        width: 20vw;
         height: 5.6vh;
         background: black;
         border: 0.3vh solid;
@@ -271,7 +275,7 @@ p a:hover{
         border-top-right-radius: 1vh;
     }
     .b2{
-        width: 18vw;
+        width: 20vw;
         height: 5.6vh;
         background: white;
         border: 0.3vh solid white;
@@ -321,7 +325,7 @@ p a:hover{
         text-decoration:rgb(228, 138, 138);
         color: white;
         padding-left: 4vh;
-        font-size: 10vh;
+        font-size: 12vh;
         font-family: Arial;
         font-weight: bolder;
         transition: 0.6s ease-in-out;
@@ -353,12 +357,12 @@ p a:hover{
         -webkit-background-clip: text;
     }
     picture{
-        width: 85%;
+        width: 90%;
         display: flex;
         float:right;
         position:absolute;
-        padding-top: 54vh;
-        padding-left: 62vw;
+        bottom: 1vh;
+        right: 0vw;
     }
     .icons a{
         text-decoration: none;
@@ -371,28 +375,29 @@ p a:hover{
         color: white;
         display: flex;
         float: left;
-        position: relative;
+        position: absolute;
         font-size: 4vh;
-        padding-left: 1vw;
-        padding-top: 55vh;
+        bottom: 20vh;
     }
     .l1{
         left: 6vw;
     }
     .l2{
-        left: 10vw;
+        left: 14vw;
     }
     .l3{
-        left: 14vw;
+        left: 22vw;
     }
     .icons ion-icon:hover{
         color: lightblue;
     }
     .i3{
-        padding-left: 5vw;
-        padding-top: 60vh;
-        width: 10%;
+        left: 1vw;
+        bottom: 2vh;
+        width: 20%;
+        display: flex;
         float: left;
+        position: absolute;
         margin: 1.5vw;
     }
 }
