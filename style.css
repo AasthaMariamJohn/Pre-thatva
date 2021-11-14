@@ -123,7 +123,7 @@ p a{
     text-decoration:rgb(228, 138, 138);
     color: white;
     padding-left: 120px;
-    font-size: 100px;
+    font-size: 7vw;
     font-family: Arial;
     font-weight: bolder;
     transition: 0.6s ease-in-out;
@@ -157,6 +157,12 @@ p a:hover{
 .i2{
     width: 40%;
     float: right;
+}
+.i21{
+    width: 40%;
+    position:absolute;
+    bottom: 0vw;
+    right: 0vw;
 }
 .icons a{
     text-decoration: none;
