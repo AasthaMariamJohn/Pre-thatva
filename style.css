@@ -203,7 +203,7 @@ p a:hover{
 }
 @media screen and (max-width: 800px) {
     .i21{
-        width: 10%;
+        width: 5%;
         position:absolute;
         bottom: 0vw;
         right: 0vw;
