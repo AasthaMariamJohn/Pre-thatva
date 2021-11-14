@@ -11,30 +11,36 @@
     width: 100vw;
 }
 .navbar{
-    width: 1400px;
-    height: 50px;
-    margin: auto;
+    width: 85vw;
+    height: 10vh;
+    
 }
 .icon{
-    font-size: 15px;
+    font-size: 1vw;
     font-family: Arial;
-    padding-left: 15px;
-    padding-top: 35px;
+    padding-left: 1vw;
+    padding-top: 5vh;
     float: left;
 }
 .navbar img{
     width: 7%;
     float: left;
+    padding-left: 3vw;
 }
 .logo1{
+    font-size: 1.3vw;
     color: aliceblue;
     font-weight: lighter;
 }
+.logo2{
+    font-size: 1.5vw;
+    font-weight: bolder;
+}
 .menu{
-    width: 400px;
+    width: 0vw;
     float: right;
-    height: 40px;
-    padding-top: 10px;
+    height: 1vh;
+    padding-top: 3vh;
 }
 .ul{
     display: flex;
@@ -43,42 +49,42 @@
 }
 ul li{
     list-style: none;
-    margin-left: 40px;
-    margin-top: 10px;
-    font-size: 30px;
+    margin-left: 2vw;
+    margin-top: 1vh;
+    font-size: 1vw;
 }
 .b1{
-    width: 150px;
-    height: 40px;
+    width: 10vw;
+    height: 5vh;
     background: black;
-    border: 2px solid;
+    border: 0.3vh solid;
     border-bottom-color: rgb(126, 219, 219);
     border-top-color: lemonchiffon;
     border-left-color: lightpink;
     border-right-color: lightpink;
-    margin-top: 15px;
+    margin-top: 2vh;
     color: black;
     text-decoration: black;
-    font-size: 15px;
+    font-size: 2vh;
     text-align: justify;
-    border-bottom-right-radius: 5px;
-    border-bottom-left-radius: 5px;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
+    border-bottom-right-radius: 1vh;
+    border-bottom-left-radius: 1vh;
+    border-top-left-radius: 1vh;
+    border-top-right-radius: 1vh;
 }
 .b2{
-    width: 150px;
-    height: 40px;
+    width: 10vw;
+    height: 5vh;
     background: white;
-    border: 2px solid white;
-    margin-top: 15px;
+    border: 0.3vh solid white;
+    margin-top: 2vh;
     color: white;
-    font-size: 15px;
+    font-size: 2vh;
     text-align: justify;
-    border-bottom-right-radius: 5px;
-    border-bottom-left-radius: 5px;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
+    border-bottom-right-radius: 1vh;
+    border-bottom-left-radius: 1vh;
+    border-top-left-radius: 1vh;
+    border-top-right-radius: 1vh;
 }
 .b1:focus{
     outline:linear-gradient(to right, #3ebac6 0%, #8b539e 50%, #e53782 100%);
@@ -91,7 +97,7 @@ ul li{
     color: white;
     display: flex;
     float:none;
-    padding-left: 45px;
+    padding-left: 3vw;
     font-family: Arial;
     font-weight: lighter;
     transition: 0.4s ease-in-out;
@@ -101,7 +107,7 @@ ul li{
     color: black;
     display: flex;
     float:none;
-    padding-left: 50px;
+    padding-left: 3.2vw;
     font-family: Arial;
     font-weight: lighter;
     transition: 0.4s ease-in-out;
@@ -113,17 +119,17 @@ ul li a:hover{
     -webkit-background-clip: text;
 }
 .content{
-    width: 1400px;
-    height: 100px;
+    width: 95vw;
+    height: 10vh;
     margin: auto;
     color: black;
-    padding-top: 100px;
-    padding-bottom: 50px;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
 }
 p a{
     text-decoration:rgb(228, 138, 138);
     color: white;
-    padding-left: 120px;
+    padding-left: 6vw;
     font-size: 7vw;
     font-family: Arial;
     font-weight: bolder;
@@ -146,8 +152,8 @@ p a{
     display: inline-block;
     background-color: black;
     mix-blend-mode: screen;
-    padding: 5px;
-    width: 500px;
+    padding: 1vw;
+    width: 10vw;
 }
 p a:hover{
     background-image: linear-gradient(to top, lightblue, rgb(132, 237, 245),rgb(148, 245, 139),lightpink, rgb(235, 155, 228),lemonchiffon, rgb(250, 248, 136));
@@ -160,7 +166,7 @@ p a:hover{
     float: right;
 }
 .i21{
-    width: 40%;
+    width: 10%;
     position:absolute;
     bottom: 0vw;
     right: 0vw;
@@ -168,8 +174,8 @@ p a:hover{
 .icons a{
     text-decoration: none;
     color: white;
-    width: 100px;
-    height: 50px;
+    width: 1vw;
+    height: 1vh;
     float: right;
 }
 .icons ion-icon{
@@ -177,27 +183,27 @@ p a:hover{
     display: flex;
     float: right;
     position: absolute;
-    bottom: 2px;
-    font-size: 40px;
-    padding-left: 10px;
-    padding-top: 10px;
+    bottom: 1vw;
+    font-size: 3vw;
+    padding-left: 1vw;
+    padding-top: 1vh;
 }
 .l1{
-    right: 200px;
+    right: 2vw;
 }
 .l2{
-    right: 120px;
+    right: 6vw;
 }
 .l3{
-    right: 40px;
+    right: 10vw;
 }
 .icons ion-icon:hover{
     color: lightblue;
 }
 .i3{
-    padding-left: 40px;
-    padding-top: 380px;
+    padding-left: 6vw;
+    padding-top: 60vh;
     width: 8%;
     float: left;
-    margin: 15px;
+    margin: 1.5vw;
 }
