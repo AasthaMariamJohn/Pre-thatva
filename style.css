@@ -10,7 +10,7 @@
     height: 100vh;
 }
 .navbar{
-    width: 1200px;
+    width: 1400px;
     height: 50px;
     margin: auto;
 }
@@ -18,13 +18,12 @@
     font-size: 15px;
     font-family: Arial;
     padding-left: 15px;
-    padding-top: 60px;
+    padding-top: 35px;
     float: left;
 }
 .navbar img{
-    width: 10%;
+    width: 80px;
     float: left;
-    margin: 5px;
 }
 .logo1{
     color: aliceblue;
@@ -33,8 +32,8 @@
 .menu{
     width: 400px;
     float: right;
-    height: 70px;
-    padding-top: 45px;
+    height: 40px;
+    padding-top: 10px;
 }
 .ul{
     display: flex;
@@ -43,7 +42,7 @@
 }
 ul li{
     list-style: none;
-    margin-left: 50px;
+    margin-left: 40px;
     margin-top: 10px;
     font-size: 30px;
 }
@@ -113,7 +112,7 @@ ul li a:hover{
     -webkit-background-clip: text;
 }
 .content{
-    width: 1200px;
+    width: 1400px;
     height: 120px;
     margin: auto;
     color: black;
@@ -171,7 +170,7 @@ p a:hover{
     display: flex;
     float: right;
     position: absolute;
-    bottom: 0px;
+    bottom: 2px;
     font-size: 40px;
     padding-left: 10px;
     padding-top: 10px;
@@ -189,8 +188,8 @@ p a:hover{
     color: lightblue;
 }
 .i3{
-    padding-left: 100px;
-    padding-top: 400px;
+    padding-left: 40px;
+    padding-top: 365px;
     width: 150px;
     float: left;
     margin: 15px;
