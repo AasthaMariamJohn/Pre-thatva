@@ -119,7 +119,7 @@ ul li a:hover{
     -webkit-background-clip: text;
 }
 .content{
-    width: 95vw;
+    width: 200vh;
     height: 10vh;
     margin: auto;
     color: black;
@@ -206,4 +206,7 @@ p a:hover{
     width: 8%;
     float: left;
     margin: 1.5vw;
+}
+@media screen and (max-width: 800px) {
+
 }
