@@ -233,7 +233,7 @@ p a:hover{
     }
     .menu{
         width: 0vw;
-        float: right;
+        float: left;
         height: 1vh;
         padding-top: 3vh;
     }
