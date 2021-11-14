@@ -211,46 +211,49 @@ p a:hover{
         width: 100vw;
     }
     .icon{
-        font-size: 2vw;
+        font-size: 2.5vw;
         font-family: Arial;
-        padding-left: 2vw;
+        padding-left: 1vw;
         padding-top: 5vh;
         float: left;
     }
     .navbar img{
-        width: 5%;
+        width: 11%;
         float: left;
+        padding-top: 2.5vh;
         padding-left: 3vw;
     }
     .logo1{
-        font-size: 2vh;
+        font-size: 2.8vh;
         color: aliceblue;
         font-weight: lighter;
     }
     .logo2{
-        font-size: 2vh;
-        font-weight: bolder;
+        font-size: 3vh;
+        font-weight: 3vw;
     }
     .menu{
         width: 0vw;
+        display: flex;
         float: left;
-        height: 1vh;
-        padding-top: 3vh;
+        position: absolute;
+        height: 0vh;
+        padding-top: 65vh;
     }
     .ul{
         display: flex;
-        justify-content:center;
+        justify-content:left;
         align-items:flex-start;
     }
     ul li{
         list-style: none;
-        margin-left: 2vw;
+        margin-left: 5vh;
         margin-top: 1vh;
         font-size: 1vw;
     }
     .b1{
-        width: 10vw;
-        height: 5vh;
+        width: 18vw;
+        height: 5.6vh;
         background: black;
         border: 0.3vh solid;
         border-bottom-color: rgb(126, 219, 219);
@@ -268,8 +271,8 @@ p a:hover{
         border-top-right-radius: 1vh;
     }
     .b2{
-        width: 10vw;
-        height: 5vh;
+        width: 18vw;
+        height: 5.6vh;
         background: white;
         border: 0.3vh solid white;
         margin-top: 2vh;
@@ -292,7 +295,7 @@ p a:hover{
         color: white;
         display: flex;
         float:none;
-        padding-left: 3vw;
+        padding-left: 5vw;
         font-family: Arial;
         font-weight: lighter;
         transition: 0.4s ease-in-out;
@@ -302,7 +305,7 @@ p a:hover{
         color: black;
         display: flex;
         float:none;
-        padding-left: 3.2vw;
+        padding-left: 5.3vw;
         font-family: Arial;
         font-weight: lighter;
         transition: 0.4s ease-in-out;
@@ -313,19 +316,12 @@ p a:hover{
         -webkit-text-fill-color: transparent;
         -webkit-background-clip: text;
     }
-    .content{
-        width: 95vh;
-        height: 10vh;
-        margin: auto;
-        color: black;
-        padding-top: 5vh;
-        padding-bottom: 5vh;
-    }
+
     p a{
         text-decoration:rgb(228, 138, 138);
         color: white;
-        padding-left: 6vw;
-        font-size: 7vw;
+        padding-left: 4vh;
+        font-size: 10vh;
         font-family: Arial;
         font-weight: bolder;
         transition: 0.6s ease-in-out;
@@ -356,46 +352,46 @@ p a:hover{
         -webkit-text-fill-color: transparent;
         -webkit-background-clip: text;
     }
-    .i21{
-        width: 5%;
-        position:relative;
-        padding-top: 100vh;
-        bottom: 0vw;
-        right: 0vw;
+    picture{
+        width: 85%;
+        display: flex;
+        float:right;
+        position:absolute;
+        padding-top: 54vh;
+        padding-left: 62vw;
     }
     .icons a{
         text-decoration: none;
         color: white;
         width: 1vw;
         height: 1vh;
-        float: right;
+        float: left;
     }
     .icons ion-icon{
         color: white;
         display: flex;
-        float: right;
-        position: absolute;
-        bottom: 1vw;
-        font-size: 3vw;
+        float: left;
+        position: relative;
+        font-size: 4vh;
         padding-left: 1vw;
-        padding-top: 1vh;
+        padding-top: 55vh;
     }
     .l1{
-        right: 2vw;
+        left: 6vw;
     }
     .l2{
-        right: 6vw;
+        left: 10vw;
     }
     .l3{
-        right: 10vw;
+        left: 14vw;
     }
     .icons ion-icon:hover{
         color: lightblue;
     }
     .i3{
-        padding-left: 6vw;
+        padding-left: 5vw;
         padding-top: 60vh;
-        width: 8%;
+        width: 10%;
         float: left;
         margin: 1.5vw;
     }
