@@ -374,6 +374,8 @@ p a:hover{
     .content2{
         display: flex;
         float: left;
+        position: absolute;
+        left: 0vw;
     }
     .i21{
         width: 50%;
