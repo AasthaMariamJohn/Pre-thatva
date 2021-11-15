@@ -329,7 +329,18 @@ p a:hover{
         -webkit-text-fill-color: transparent;
         -webkit-background-clip: text;
     }
-
+    .content1{
+        display: flex;
+        float: right;
+        position: absolute;
+        bottom: 1vh;
+    }
+    .content2{
+        display: flex;
+        float: left;
+        position: absolute;
+        left: 0vw;
+    }
     p a{
         text-decoration:rgb(228, 138, 138);
         color: white;
@@ -364,18 +375,6 @@ p a:hover{
         background-clip: content-box;
         -webkit-text-fill-color: transparent;
         -webkit-background-clip: text;
-    }
-    .content1{
-        display: flex;
-        float: right;
-        position: absolute;
-        bottom: 1vh;
-    }
-    .content2{
-        display: flex;
-        float: left;
-        position: absolute;
-        left: 0vw;
     }
     .i21{
         width: 50%;
