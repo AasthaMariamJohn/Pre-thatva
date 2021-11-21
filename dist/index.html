@@ -3,6 +3,11 @@
         <title>Pre-Thatva</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="style.css">
+        <script type="text/javascript">
+            function changeImage(a) {
+                document.getElementById("img").src=a;
+            }
+        </script>
     </head>
     <body>
         <div class="main">
@@ -24,7 +29,7 @@
                         <source srcset="i8.png" media="(max-width: 800px)" class="i21">
                         <source srcset="i3.png" media="(max-width: 1500px)">
                         <source srcset="i3.png">
-                        <img src="i3.png" alt="accimg" class="i2">
+                        <img src="i3.png" alt="accimg" class="i2" ondblclick='changeImage("i5.png");'>
                     </picture>
                 </div>
             </div>

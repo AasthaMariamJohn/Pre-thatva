@@ -278,7 +278,7 @@ p a:hover{
         color: black;
         text-decoration: black;
         font-size: 2vh;
-        text-align: justify;
+        text-align: center;
         border-bottom-right-radius: 1vh;
         border-bottom-left-radius: 1vh;
         border-top-left-radius: 1vh;
@@ -292,7 +292,7 @@ p a:hover{
         margin-top: 2vh;
         color: white;
         font-size: 2vh;
-        text-align: justify;
+        text-align: center;
         border-bottom-right-radius: 1vh;
         border-bottom-left-radius: 1vh;
         border-top-left-radius: 1vh;
@@ -310,7 +310,7 @@ p a:hover{
         display: flex;
         float:none;
         justify-content:space-around;
-        /*padding-left: 5vw;*/
+        padding-left: 1vw;
         font-family: Arial;
         font-weight: lighter;
         transition: 0.4s ease-in-out;
@@ -321,7 +321,7 @@ p a:hover{
         display: flex;
         float:none;
         justify-content:space-around;
-        /*padding-left: 5.3vw;*/
+        padding-left: 1vw;
         font-family: Arial;
         font-weight: lighter;
         transition: 0.4s ease-in-out;
